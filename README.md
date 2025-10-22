@@ -1,5 +1,9 @@
 drfan321.github.io/GSDictionary/
 
+IF YOU ARE READING THIS TO GRADE THE ASSIGNMENT, VISIT THE PAGES FOLDER, WHICH CONTAINS THE HTML CODE. YOU CAN ALSO VIEW THE WEBSITE BY GOING INTO THE DEPLOYMENTS AND CLICKING THE LINK AT THE TOP OR BY USING THE LINK ABOVE AT LINE 1.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 The main objevtive of this repository is to comeplete a school assignment for my magnet class. At the current moment, progress is still being made.
 While I will stop construction after the due date of the assignment, I may start again at some point just for the heck of it.
 
