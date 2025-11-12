@@ -2,7 +2,7 @@
 
 <html> 
  
-<link id="themeStylesheet" rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="style.css">
  
 <head> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,30 +12,6 @@
  
 
 <body style="background-color: black;"> 
-
- <button onclick="switchTheme('style2.css')" class = "fixed-top-right">Light Mode</button>
- <button onclick="switchTheme('style1.css')" class = "fixed-top-right">Dark Mode</button>  
-
- <script>
-    <script>
-      @param {string} cssFile
-        function switchTheme(cssFile) {
-            try {
-                const linkElement = document.getElementById('themeStylesheet');
-                if (!linkElement) {
-                    throw new Error("Stylesheet link element not found.");
-                }
-                if (typeof cssFile !== 'string' || !cssFile.endsWith('.css')) {
-                    throw new Error("Invalid CSS file path.");
-                }
-                linkElement.setAttribute('href', cssFile);
-                console.log(`Switched to: ${cssFile}`);
-            } catch (error) {
-                console.error("Error switching theme:", error.message);
-                alert("Failed to switch theme. Check console for details.");
-            }
-        }
- </script>
 
 
  
@@ -146,6 +122,7 @@
 </body> 
 
 </html> 
+
 
 
 
