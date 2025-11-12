@@ -9,9 +9,9 @@
   bottom: 0;     
   right: 0;       
 }
-body [
-backround-color: white;
-}
+    body {
+    backround-color: white;
+    }
    h2 { 
    color: black;
    font-size: 25px; 
