@@ -1,75 +1,70 @@
-<!DOCTYPE html> 
-<html> 
-<link rel="stylesheet" href="style.css">
-<head> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Great Syntax Dictionary</title> 
-</head> 
-<body> 
-<body style="background-color: black;"> 
-<h1 style = "color:white">The Great Syntax Dictionary</h1> 
-<label for="Language" style="color: white">Select Your Language:</label> 
-<select id="Language"> 
-      <option value="https://drfan321.github.io/GSDictionary/">-- Home --</option> 
-      <option value="https://drfan321.github.io/GSDictionary/pages/java.html" selected>Java (You are here)</option> 
-      <option value="https://drfan321.github.io/GSDictionary/pages/python.html">Python</option> 
-      <option value="https://drfan321.github.io/GSDictionary/pages/html.html">Html</option> 
-    </select> 
-    <button onclick="goToPage()" style="color: green">Go</button> 
-           <script> 
+<!DOCTYPE html>
+<html>
 
-      function goToPage() { 
-        var selectElement = document.getElementById("Language"); 
-        var selectedUrl = selectElement.value; 
-        window.location.href = selectedUrl; 
-      } 
-    </script> 
-      
-   <hr>
-    
-    
- <h2 style="color: white">The Java Dictionary:</h2>
- 
-<p style="color: white">Beginning with Conditional Statements:</p>
-<ul style="color: white"<</p>
-  <li><strong>If:</strong> Used to do a specific action when another thing happens. "if (color=="red") {}</li>
-  <li><strong>Else:</strong> Used after an If function to specify what to do if the other thing does not match the specifications of the If statements. "If color=="red" {_____} else{_____}"</li>
-  <li><strong>Else/If:</strong> Used in an if function to create multiple specifications for what could happen, and what it causes. "If color=="red" {_____} else if {_____} else {_____}</li>
-</ul>
-<p style="color: white">Next, Operators in the Java Language:</p>
-<ul style="color: white"<</p>
- <li><strong>=:</strong> Assigns something to a particular value, for example, "apple=1", or "bannana=1".</li>
- <li><strong>+, -, /, *, %:</strong> The classic operators, they for you to do arithmatic like 1+1=2 or 2/2=1. </li>
- <li>Conditional Operators like <strong> "=="</strong>: A concise way to return one of two values based on a true or false condition.  </li>
-</ul>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Syntax Dictionary</title>
+    <link rel="stylesheet" href="style.css">
 
-<p style="color:white">Finnally, (for now) comments:</p>
-<ul style="color:white"<</p>
-<li> <strong>//:</strong> Used to indicate a comment that takes up an induvidual line of commentation.</li>
-<li> <strong>/* */:</strong> Used to indicate a multi line comment.</li>
-<li> <strong>/** */:</strong> Used to indicate a documentational comment.</li>
-</ul>
+</head>
 
-<hr>
+<body>
 
+    <h1>The Great Syntax Dictionary</h1>
 
-<a href="https://github.com/DrFan321/HomePageForGSD/tree/main" style="color: gray">If you have any suggestions on what to add or how to improve my website, click on me to go to the repository for the website.</a>
+    <label for="Language">Select Your Language:</label>
+    <select id="Language">
+        <option value="https://drfan321.github.io/GSDictionary/">-- Home --</option>
+        <option value="https://drfan321.github.io/GSDictionary/pages/java.html" selected>Java (You are here)</option>
+        <option value="https://drfan321.github.io/GSDictionary/pages/python.html">Python</option>
+        <option value="https://drfan321.github.io/GSDictionary/pages/html.html">HTML</option>
+    </select>
+    <button onclick="goToPage()" style="color: green;">Go</button>
 
-<style>
-      .fixed-bottom-right { 
-  position: fixed; 
-  bottom: 0;     
-  right: 0;       
-}
+    <script>
+        function goToPage() {
+            var selectElement = document.getElementById("Language");
+            var selectedUrl = selectElement.value;
+            window.location.href = selectedUrl;
+        }
+    </script>
 
+    <hr>
 
-</style>
+    <h2>The Java Dictionary:</h2>
 
+    <p>Beginning with Conditional Statements:</p>
+    <ul>
+        <li><strong>If:</strong> Runs code only when a condition is true. Example: <code>if (color == "red") { }</code></li>
+        <li><strong>Else:</strong> Runs if the <code>if</code> condition is false. Example: <code>if (color == "red") { } else { }</code></li>
+        <li><strong>Else If:</strong> Adds more conditions. Example:
+            <code>if (color == "red") { } else if (color == "blue") { } else { }</code>
+        </li>
+    </ul>
 
-<img src="images/java.webp" class="fixed-bottom-right"> 
+    <p>Next, Operators in the Java Language:</p>
+    <ul>
+        <li><strong>= :</strong> Assignment operator. Example: <code>apple = 1;</code></li>
+        <li><strong>+, -, /, *, % :</strong> Arithmetic operators like <code>1 + 1</code> or <code>2 / 2</code>.</li>
+        <li><strong>== :</strong> Comparison operator used to test equality.</li>
+    </ul>
 
+    <p>Finally, comments:</p>
+    <ul>
+        <li><strong>// :</strong> Single-line comment.</li>
+        <li><strong>/* */ :</strong> Multi-line comment.</li>
+        <li><strong>/** */ :</strong> Documentation comment (used for Javadoc).</li>
+    </ul>
 
+    <hr>
 
-</body> 
+    <a href="https://github.com/DrFan321/HomePageForGSD/tree/main" style="color: gray">
+        If you have any suggestions on what to add or how to improve my website, click here to visit the repository.
+    </a>
 
-</html> 
+    <img src="../images/java.webp" class="fixed-bottom-right" alt="Java logo">
+
+</body>
+
+</html>
+
