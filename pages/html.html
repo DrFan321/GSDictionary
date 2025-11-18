@@ -1,56 +1,72 @@
-<!DOCTYPE html> 
-<html> 
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
 <head>
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Great Syntax Dictionary</title> 
-</head> 
-<body> 
-<body style="background-color: black;"> 
-<h1 style = "color:white">The Great Syntax Dictionary</h1> 
-<label for="Language" style="color: white">Select Your Language:</label> 
-<select id="Language"> 
-      <option value="https://drfan321.github.io/GSDictionary/">-- Home --</option> 
-      <option value="https://drfan321.github.io/GSDictionary/pages/java.html">Java </option> 
-      <option value="https://drfan321.github.io/GSDictionary/pages/python.html">Python</option> 
-      <option value="https://drfan321.github.io/GSDictionary/pages/html.html" selected>Html (You Are Here)</option> 
-    </select> 
-    <button onclick="goToPage()" style="color: green">Go</button> 
-           <script> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Syntax Dictionary</title>
+    <link rel="stylesheet" href="../style.css"> 
+</head>
 
-      function goToPage() { 
-        var selectElement = document.getElementById("Language"); 
-        var selectedUrl = selectElement.value; 
-        window.location.href = selectedUrl; 
-      } 
-    </script> 
-    
-    <hr>
- 
- <h2 style="color: white">The Html Dictionary:</h2>
- <p style="color: white"><strong>The Dictionary will just be a list of tags and explanations for them, starting here:</strong></p>
- <ul style="color:white">
- <li><strong>&lt;p&gt;:</strong>Used to create a paragraph within the page.</li>
- <li><strong>&lt;h1-6&gt;:</strong>Used to create a header, within the page, can be specified as header number 1 though number 6.</li>
- <li><strong>&lt;style&gt;:</strong> Used to go to CSS within a html compiler.</li>
- <li><strong>&lt;script&gt;:</strong> Used to go to Java Script within an html compiler.
- <li><strong>&lt;select&gt;:</strong> Used to create a dropdown menu.</li>
- <li><strong>&lt;body&gt;:</strong> Used to create the body for the website.
- <li><strong>&lt;html&gt;:</strong> Used to specify the language used to code the website, in every html file.</li>
- <li><strong>&lt;!doctype&gt;:</strong> Used to define the document type.</li>
- <li><strong>&lt;a&gt;:</strong> Used to create a hyperlink.</li>
- <li><strong>&lt;iframe&gt;:</strong> Creates a website frame within the website.</li>
- <li><strong>&lt;img&gt;:</strong> Creates an image in your website.</li>
-  <li><strong>&lt;var&gt;:</strong> Defines a variable.</li>
-       <li><strong>&lt;div&gt;:</strong> Allows you to group html elements together.</li>
+<body style="background-color: black;">
+
+<h1 style="color:white">The Great Syntax Dictionary</h1>
+
+<label for="Language" style="color: white">Select Your Language:</label>
+<select id="Language">
+    <option value="https://drfan321.github.io/GSDictionary/">-- Home --</option>
+    <option value="https://drfan321.github.io/GSDictionary/pages/java.html">Java</option>
+    <option value="https://drfan321.github.io/GSDictionary/pages/python.html">Python</option>
+    <option value="https://drfan321.github.io/GSDictionary/pages/html.html" selected>Html (You Are Here)</option>
+</select>
+
+<button onclick="goToPage()" style="color: green">Go</button>
+
+<script>
+function goToPage() {
+    var selectElement = document.getElementById("Language");
+    var selectedUrl = selectElement.value;
+    window.location.href = selectedUrl;
+}
+</script>
+
+<hr>
+
+<h2 style="color: white">The Html Dictionary:</h2>
+<p style="color: white"><strong>The Dictionary will just be a list of tags and explanations for them, starting here:</strong></p>
+
+<ul style="color:white">
+    <li><strong>&lt;p&gt;:</strong> Used to create a paragraph within the page.</li>
+    <li><strong>&lt;h1-6&gt;:</strong> Used to create a header from 1 to 6.</li>
+    <li><strong>&lt;style&gt;:</strong> Used to add CSS inside HTML.</li>
+    <li><strong>&lt;script&gt;:</strong> Used to add JavaScript inside HTML.</li>
+    <li><strong>&lt;select&gt;:</strong> Creates a dropdown menu.</li>
+    <li><strong>&lt;body&gt;:</strong> Defines the main content of the website.</li>
+    <li><strong>&lt;html&gt;:</strong> Declares the HTML document type.</li>
+    <li><strong>&lt;!doctype&gt;:</strong> Declares the document type.</li>
+    <li><strong>&lt;a&gt;:</strong> Creates a hyperlink.</li>
+    <li><strong>&lt;iframe&gt;:</strong> Embeds a webpage within your page.</li>
+    <li><strong>&lt;img&gt;:</strong> Displays an image.</li>
+    <li><strong>&lt;var&gt;:</strong> Defines a variable.</li>
+    <li><strong>&lt;div&gt;:</strong> Groups HTML elements.</li>
 </ul>
 
-      <p style="color: white"> We are always striving to add more information to our dictionary. Please note that not every tag is put into the dictionary yet.</p>
+<p style="color: white">
+    We are always striving to add more information to our dictionary. Please note that not every tag is included yet.
+</p>
 
- <hr>
-<img src="pages/html.html/images/HTML.svg" alt="Picture of HTML Document" class="fixed-bottom-right">
+<hr>
 
-    <a href="https://github.com/DrFan321/HomePageForGSD/tree/main" style="color: gray">If you have any suggestions on what to add or how to improve my website, click on me to go to the repository for the website.</a>
+<img src="../images/HTML.svg" 
+     alt="Picture of HTML Document" 
+     class="fixed-bottom-right">
+
+<br><br>
+
+<a href="https://github.com/DrFan321/HomePageForGSD/tree/main" style="color: gray">
+    If you have any suggestions on what to add or how to improve my website, click here to go to the repository.
+</a>
+
 </body>
 </html>
+
 
