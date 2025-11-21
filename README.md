@@ -1,4 +1,3 @@
-IF YOU ARE READING THIS TO GRADE THE ASSIGNMENT, VISIT THE PAGES FOLDER, WHICH CONTAINS THE HTML CODE. YOU CAN ALSO VIEW THE WEBSITE BY GOING INTO THE DEPLOYMENTS AND CLICKING THE LINK AT THE TOP.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -8,7 +7,3 @@ While I will stop construction after the due date of the assignment, I may start
 GSD is a syntax dictionary that aims to be the best in its field, incorperating 3 languages and providing desciptions of what each function does.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Sorry about it being only HTML, its just a pain to not just use the <script> and <style> tags to go to css and js, so I just use those.
-
-The html files for each of the webpages is inside the pages folder. The important-additionals folder is used to create an exemption for jekyll and has the file that was used to create the root for the repository. You can ignore those as they are not important to the main project.
